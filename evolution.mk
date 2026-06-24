@@ -2,6 +2,7 @@
 # Copyright (C) 2018 The LineageOS Project
 #               2017-2024 crDroid Android Project
 #
+# SPDX-FileCopyrightText: Evolution X
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -23,11 +24,6 @@ PRODUCT_PACKAGES += \
     SystemUIClocks-NumOverlap \
     SystemUIClocks-Weather
 
-PRODUCT_PACKAGES += \
-    HideSmartSpace \
-    SmartSpaceOffset \
-    HideClock
-
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
@@ -35,97 +31,6 @@ PRODUCT_PACKAGES += \
     fonts_customization_emoji_ios.xml \
     fonts_customization_emoji_samsung.xml \
     fonts_customization_emoji_swiftui.xml \
-    ClockFontACFilmstripOverlay \
-    ClockFontAccuratistOverlay \
-    ClockFontAclonicaOverlay \
-    ClockFontAlmonteSnowOverlay \
-    ClockFontAlphaCloudsOverlay \
-    ClockFontAlphaFlowersOverlay \
-    ClockFontAlphaWoodOverlay \
-    ClockFontAmaranteOverlay \
-    ClockFontAmpad3D2Overlay \
-    ClockFontBariolOverlay \
-    ClockFontBetsyFlanaganOverlay \
-    ClockFontBigCheeseOverlay \
-    ClockFontBrandayolqOverlay \
-    ClockFontBudmoJigglerOverlay \
-    ClockFontBunnyRabbitsOverlay \
-    ClockFontCFBadNewsOverlay \
-    ClockFontCFOneTwoTreesOverlay \
-    ClockFontCagliostroOverlay \
-    ClockFontCatOverlay \
-    ClockFontCoconOverlay \
-    ClockFontComfortaaOverlay \
-    ClockFontComicSansOverlay \
-    ClockFontConcentrateOverlay \
-    ClockFontCookieRunOverlay \
-    ClockFontCoolstoryOverlay \
-    ClockFontCrackmanOverlay \
-    ClockFontDiscoMidnightOverlay \
-    ClockFontEasterBunnyOverlay \
-    ClockFontEditPointsFilledOverlay \
-    ClockFontEditPointsOverlay \
-    ClockFontElriott2Overlay \
-    ClockFontExotwoOverlay \
-    ClockFontFibographyOverlay \
-    ClockFontFifa2018Overlay \
-    ClockFontFloorlightOverlay \
-    ClockFontGautsMotelUpperRightOverlay \
-    ClockFontGoogleSansFlexOverlay \
-    ClockFontGrandHotelOverlay \
-    ClockFontHangedOverlay \
-    ClockFontHarmonySansOverlay \
-    ClockFontHotSweatOverlay \
-    ClockFontKGOnlyHopeOverlay \
-    ClockFontKaramuruhOverlay \
-    ClockFontKingthingsOverlay \
-    ClockFontLMSCliffordOverlay \
-    ClockFontLatoOverlay \
-    ClockFontLinotteOverlay \
-    ClockFontLittleBunnyOverlay \
-    ClockFontLowerAtmosphereOverlay \
-    ClockFontMessingLetternOverlay \
-    ClockFontMonbijouxClownpieceOverlay \
-    ClockFontNeonDiscoOverlay \
-    ClockFontNinjasOverlay \
-    ClockFontNokiaPureOverlay \
-    ClockFontNothingDotHeadlineOverlay \
-    ClockFontNunitoOverlay \
-    ClockFontOneplusSansOverlay \
-    ClockFontOneplusSlateOverlay \
-    ClockFontOswaldOverlay \
-    ClockFontPinewoodOverlay \
-    ClockFontPlaidEventOverlay \
-    ClockFontPlantsLettersOverlay \
-    ClockFontPlayOverlay \
-    ClockFontPoppinsSourceOverlay \
-    ClockFontQuandoOverlay \
-    ClockFontQuickSouthOverlay \
-    ClockFontRedressedOverlay \
-    ClockFontReemKufiOverlay \
-    ClockFontRemponkOverlay \
-    ClockFontRobotoCondensedOverlay \
-    ClockFontRomantiquesOverlay \
-    ClockFontRoundheadsOverlay \
-    ClockFontRubikOverlay \
-    ClockFontSamsungOneOverlay \
-    ClockFontSansSerifOverlay \
-    ClockFontScrapItUpOverlay \
-    ClockFontSonySketchOverlay \
-    ClockFontSpaceGameOverlay \
-    ClockFontStandardHeaderOverlay \
-    ClockFontStoropiaOverlay \
-    ClockFontSurferOverlay \
-    ClockFontTh3machineOverlay \
-    ClockFontUbuntuOverlay \
-    ClockFontVtksdura3dOverlay \
-    ClockFontZnikomitNo24Overlay \
-    ClockFontIOSOverlay \
-    ClockFontHerculesOverlay \
-    ClockFontSlimOverlay \
-    ClockFontNtype82Overlay \
-    ClockFontSubwayOverlay \
-    ClockFontMotorola \
     FontAccuratistOverlay \
     FontAclonicaOverlay \
     FontAmaranteOverlay \
@@ -227,8 +132,7 @@ PRODUCT_PACKAGES += \
 # Udfps
 ifeq ($(TARGET_HAS_UDFPS),true)
 PRODUCT_PACKAGES += \
-    UdfpsAnimations \
-    UdfpsIcons
+    UdfpsAnimations
 endif
 
 # Include {Lato,Rubik} fonts
