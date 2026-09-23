@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.android.evolution.utils
+package com.android.losp.utils
 
 import android.content.Context
 import android.content.res.Resources
